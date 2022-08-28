@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+span {
+  color: rgb(216, 55, 5);
+}
+.default-text {
+  background-color: #99ffcc;
+}
+#toc {
+  font-size: 18px;
+  color: blueviolet;
+}
+p code {
+  width: 15px;
+  color: rgb(5, 168, 14);
+}
+.first-text.second-text {
+  color: rgb(5, 78, 131);
+  font-size: 15px;
+}
+.tic {
+  color: rgb(26, 7, 236);
+}
+p {
+  font-size: 12px;
+}
+.main-text {
+  font-size: 15px;
+  font-weight: bold;
+}
+.list {
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+li + li {
+  margin-top: 7px;
+}
