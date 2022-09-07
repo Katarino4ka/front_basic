@@ -26,100 +26,100 @@
     </header>
 
     <main>
-        <form>
+        <form action="https://fom.in.ua/echo" method="post">
             <h3>Select body type - Выберите тип кузова</h3>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="body type" value="Sedan">
                     <span>Sedan </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="body type" value="Station wagon">
                     <span>Station wagon </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="body type" value="Cabriolet">
                     <span>Cabriolet </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="body type" value="Pickup">
                     <span>Pickup </span>
                 </label>
             </p>
             <h3>Select car brand - Выберите марку:</h3>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="Nissan" value="">
+                    <input type="checkbox" name="car brand" value="Nissan">
                     <span>Nissan </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="Opel" value="">
+                    <input type="checkbox" name="car brand" value="Opel">
                     <span>Opel </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="BMW" value="">
+                    <input type="checkbox" name="car brand" value="BMW">
                     <span>BMW </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="Renault" value="">
+                    <input type="checkbox" name="car brand" value="Renault">
                     <span>Renault </span>
                 </label>
             </p>
             <h3>Select producing country -Выберите страну-производитель:</h3>
             <p>
-                <select multiple>
-                    <option value="Val 1">Germany</option>
-                    <option value="Val 2">Japan</option>
-                    <option value="Val 3">USA</option>
-                    <option value="Val 4">France</option>
+                <select name="producing country" multiple>
+                    <option value="Germany">Germany</option>
+                    <option value="Japan">Japan</option>
+                    <option value="USA">USA</option>
+                    <option value="France">France</option>
                 </select>
             </p>
 
-            <h3>Select price -Выберите цену:</h3>
+            <h3>Select price -Выберите цену (100-100000):</h3>
             <p>
                 <label class="Option">
                     <span>Min </span>
-                    <input type="range" min="100" max="100000">
+                    <input name="price" type="range" min="100" max="100000">
                     <span>Max </span>
                 </label>
             </p>
             <h3>Select period -Выберите интервал:</h3>
             <p>
-                <select>
-                    <option value="Val 1">1990 - 2000</option>
-                    <option value="Val 2">2001-2010</option>
-                    <option value="Val 3">2011-2020</option>
-                    <option value="Val 4">2021-</option>
+                <select name="period">
+                    <option value="1990 - 2000">1990 - 2000</option>
+                    <option value="2001-2010">2001-2010</option>
+                    <option value="2011-2020">2011-2020</option>
+                    <option value="2021-">2021-</option>
                 </select>
             </p>
             <h3>Select car condition - Выберите состояние</h3>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="car condition" value="New">
                     <span>New </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="car condition" value="Broken">
                     <span>Broken </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="car condition" value="Not cleared">
                     <span>Not cleared </span>
                 </label>
             </p>
@@ -127,25 +127,25 @@
             <h3>Select gearbox type - Выберите тип коробки передач</h3>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="gearbox type" value="Manual transmission">
                     <span>Manual transmission </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="gearbox type" value="Automatic transmission">
                     <span>Automatic transmission </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="gearbox type" value="Tiptronic">
                     <span> Tiptronic </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="gearbox type" value="Variable speed drive">
                     <span>Variable speed drive </span>
                 </label>
             </p>
@@ -153,42 +153,42 @@
             <h3>Select fuel type- Выберите тип топлива:</h3>
             <p>
                 <label class="Option">
-                    <input type="radio" name="123" value="">
+                    <input type="radio" name="fuel type" value="Petrol">
                     <span>Petrol </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="radio" name="123" value="">
+                    <input type="radio" name="fuel type" value="Diesel Fuel">
                     <span>Diesel Fuel </span>
                 </label>
             </p>
             <h3>Select color- Выберите цвет:</h3>
             <p>
-                <input type="color" onchange="(e) => console.log(e.target.value)">
+                <input name="color" type="color" onchange="(e) => console.log(e.target.value)">
             </p>
             <h3>Select additional options - Выберите дополнительные опции</h3>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="additional options" value="Leather interior">
                     <span>Leather interior </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="additional options" value="Heated seats">
                     <span>Heated seats </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="additional options" value="Glass lifters">
                     <span> Glass lifters </span>
                 </label>
             </p>
             <p>
                 <label class="Option">
-                    <input type="checkbox" name="123" value="">
+                    <input type="checkbox" name="additional options" value="Air conditioner">
                     <span>Air conditioner </span>
                 </label>
             </p>
