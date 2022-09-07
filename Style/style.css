@@ -1,13 +1,13 @@
-.Container {
+/* .Container {
   width: 100%;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 input {
-  padding: 0.2rem 0.2rem;
+  padding: 0.1rem 0.1rem;
 }
 img {
   text-align: center;
