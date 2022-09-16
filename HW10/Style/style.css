@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Container {
+  width: 900px;
+  height: 800px;
+  font-family: "roboto", sans-serif;
+}
+.mainMenu {
+  display: flex;
+}
+.mainMenu > li {
+  background: rgb(62, 62, 62);
+}
+.mainMenu li {
+  width: 200px;
+  list-style: none;
+  transition: all 0.5s;
+  position: relative;
+}
+.mainMenu a {
+  color: #c4c4c4;
+  text-align: center;
+  display: block;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 2s;
+  text-decoration: none;
+}
+.mainMenu li:hover {
+  background: #2477f3a7;
+}
+
+.mainMenu ul {
+  position: absolute;
+  display: none;
+  padding: 0;
+  left: 0;
+}
+.mainMenu li:hover > ul {
+  display: block;
+}
+.mainMenu ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  overflow: visible;
+}
+li > a:after {
+  content: " +";
+}
+li > a:only-child:after {
+  content: "";
+}
+.subMenu {
+  background-color: rgba(70, 68, 73, 0.844);
+}
