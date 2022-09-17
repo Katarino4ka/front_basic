@@ -1,0 +1,87 @@
+.Container {
+  width: 1100px;
+  height: 800px;
+  background-color: #a79b9b;
+  border: 1px solid;
+}
+.wrapper {
+  width: 1000px;
+  background: #e6e6e6;
+  margin: 50px 50px 0 50px;
+}
+.bigSquare {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+}
+.smallSquare {
+  width: 100px;
+  height: 100px;
+  background-color: #fc8f8f;
+}
+.right_1 {
+  width: 100px;
+  height: 37.5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
+  padding: 31.5px 0;
+}
+.clearfix {
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.left_1 {
+  width: 200px;
+  height: 75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  padding: 63px 0;
+}
+
+.right_2 {
+  width: 200px;
+  height: 75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  padding: 63px 0;
+}
+
+.rightPart :last-child {
+  margin-left: 0px;
+}
+.rightPart :first-child {
+  margin-right: 0px;
+}
+.rightPart,
+.leftPart {
+  width: 50%;
+  margin: 0 auto;
+  margin-right: 0px;
+}
+.leftPart .left {
+  margin-right: 15px;
+}
+.rightPart .right {
+  margin-left: 15px;
+}
