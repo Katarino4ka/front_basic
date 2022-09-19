@@ -67,21 +67,22 @@
   padding: 63px 0;
 }
 
-.rightPart :last-child {
+.rightPart:first-child :last-child {
   margin-left: 0px;
 }
 .rightPart :first-child {
   margin-right: 0px;
 }
-.rightPart,
+
 .leftPart {
   width: 50%;
-  margin: 0 auto;
+
   margin-right: 0px;
 }
 .leftPart .left {
   margin-right: 15px;
 }
-.rightPart .right {
+.rightPart .right,
+.rightPart .left {
   margin-left: 15px;
 }
