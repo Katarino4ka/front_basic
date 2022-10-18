@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("Inter-Regular.woff") format("woff"),
+    url("Inter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "StyleScript-Regular";
+  src: url("StyleScript-Regular.woff") format("woff"),
+    url("StyleScript-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bitter-Regular";
+  src: url("Bitter-Regular.woff") format("woff"),
+    url("Bitter-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url("Raleway-Bold.woff") format("woff"),
+    url("Raleway-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("Raleway-Regular.woff") format("woff"),
+    url("Raleway-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
