@@ -1,0 +1,484 @@
+@media (max-width: 1319px) {
+  .header {
+    width: 100%;
+    padding: 0;
+    &__nav {
+      padding-top: 0;
+    }
+    &__logo {
+      padding-top: 0;
+      width: auto;
+    }
+    &__link {
+      width: auto;
+    }
+    &__icon {
+      padding-top: 0;
+    }
+  }
+
+  .container {
+    padding: 20px 20px;
+  }
+  .box {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    &__heading {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    &__paragraph {
+      font-size: 18px;
+      line-height: 26px;
+    }
+    &__experience {
+      max-width: 300px;
+    }
+    &__services-heading {
+      font-size: 32px;
+      line-height: 38px;
+    }
+  }
+  label {
+    font-size: 35px;
+  }
+  .main {
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    &__icon {
+      display: none;
+    }
+    &__block_right {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    &__avatar {
+      display: block;
+      max-width: 60px;
+      max-height: 60px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
+    &__wrapper {
+      display: flex;
+    }
+    &__text-wrap {
+      display: flex;
+      flex-direction: column;
+    }
+    &__title-chief_mob {
+      display: block;
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 400;
+      margin-bottom: 5px;
+      color: #b3b3ba;
+    }
+    &__title-chief {
+      display: none;
+    }
+    &__drop {
+      &-heading {
+        padding-top: 20px;
+      }
+      &-heading_high {
+        margin-top: 0;
+      }
+    }
+    &__wrap {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      width: 33.33%;
+    }
+    &__section {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+  }
+  .swiper {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    &__card-box {
+      grid-template-columns: 100%;
+      border: none;
+    }
+    &__card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .card__pic {
+    width: 50%;
+  }
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    &__menu {
+      flex-direction: column;
+    }
+    &__nav {
+      flex-direction: column;
+      padding-bottom: 20px;
+    }
+    &__copyright {
+      margin-left: 0;
+      text-align: center;
+    }
+    &__fullstop {
+      display: none;
+    }
+    &__dot {
+      display: none;
+    }
+    &__svg {
+      display: none;
+    }
+    &__container {
+      flex-direction: column;
+      padding-top: 20px;
+      padding-bottom: 118px;
+    }
+    &__link-adress {
+      padding-bottom: 10px;
+    }
+    &__facebook {
+      margin-right: 0;
+      padding-bottom: 20px;
+    }
+    &__number {
+      margin-left: 0;
+      padding-bottom: 20px;
+    }
+    &__contact {
+      padding-bottom: 20px;
+    }
+  }
+  .icon {
+    object-fit: cover;
+    height: 31px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    &__menu {
+      display: none;
+    }
+    &__link:not(.header__link_mobile) {
+      display: none;
+    }
+    &__item_dotted {
+      display: none;
+    }
+    &__logo {
+      width: 100%;
+      max-height: 31px;
+    }
+    &__icon {
+      width: auto;
+      max-width: 208px;
+    }
+    &__nav {
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    &__link_tel {
+      color: #b3b3ba;
+      margin-left: auto;
+    }
+    &__list {
+      justify-content: flex-start;
+    }
+    &__burger {
+      display: block;
+      transition-duration: 1s;
+      &:hover {
+        background-color: #e6e6f0;
+        border-radius: 8%;
+      }
+    }
+    &__lang:not(.header__lang_active) {
+      color: #b3b3ba;
+    }
+    &__mix {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    &__item_number {
+      margin-left: auto;
+    }
+    &__dot {
+      display: none;
+    }
+  }
+
+  .container {
+    background-image: $gradient_b, $background_def;
+    background-position: bottom center, bottom right, center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 100% 600px, auto, auto;
+    &__content {
+      padding-top: 138px;
+      margin-top: 0;
+    }
+    &__scroll-down {
+      margin-top: 201px;
+    }
+    &__heading {
+      text-align: center;
+      padding-top: 0;
+    }
+  }
+  .box {
+    flex-direction: column;
+    align-items: flex-start;
+    &__scroll-menu {
+      width: auto;
+    }
+    &__scroll-item {
+      border: none;
+      text-align: left;
+      &:hover {
+        border: none;
+      }
+    }
+    &__scroll-item {
+      display: none;
+    }
+    &__experience {
+      width: auto;
+      margin-left: 0;
+      margin-top: 10px;
+      display: none;
+    }
+    &__paragraph {
+      padding-bottom: 20px;
+    }
+    &__card {
+      flex-direction: column;
+    }
+    &__services {
+      margin-top: 45px;
+    }
+    &__services-heading {
+      margin-bottom: 20px;
+    }
+  }
+  label {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-align: left;
+  }
+  .test {
+    display: block;
+  }
+  .swiper {
+    overflow: hidden;
+    position: relative;
+  }
+  .swiper-wrapper {
+    padding-bottom: 36px;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #24a3ff;
+  }
+  .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background-color: #24a3ff;
+  }
+  label {
+    background: $text_pink;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .card {
+    width: auto;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    margin-bottom: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    &__title {
+      font-size: 18px;
+      line-height: 21px;
+      margin-left: 10px;
+    }
+    &__article {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    &__icon-image {
+      max-width: 64px;
+      max-height: 64px;
+    }
+    &__with {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .main {
+    &__title {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    &__drop-heading {
+      font-size: 18px;
+      line-height: 21px;
+      padding-bottom: 10px;
+    }
+    &__item {
+      width: 50%;
+    }
+    &__p-logo {
+      object-fit: cover;
+    }
+    &__p-logo_hillel {
+      height: 35px;
+    }
+    &__p-logo_wanna {
+      height: 27px;
+      width: 168px;
+    }
+    &__p-logo_tap {
+      height: 40px;
+    }
+    &__p-logo_3d {
+      height: 34px;
+    }
+    &__p-logo_orange {
+      height: 36px;
+    }
+    &__p-logo_adt {
+      height: 33px;
+    }
+    &__p-logo_clic {
+      height: 49px;
+    }
+    &__p-logo_lease {
+      height: 54px;
+    }
+    &__p-logo_inf {
+      height: 39px;
+    }
+    &__p-logo_park {
+      height: 28px;
+    }
+    &__p-logo_stud {
+      height: 33px;
+    }
+    &__p-logo_ulti {
+      height: 70px;
+    }
+    &__link_blue {
+      padding-top: 28px;
+      padding-bottom: 27px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    &__link_biz {
+      padding-top: 32px;
+      padding-bottom: 31px;
+      padding-right: 9px;
+      padding-left: 10px;
+    }
+    &__link_tap {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      padding-right: 13px;
+      padding-left: 14px;
+    }
+    &__link_look {
+      padding-top: 28px;
+      padding-bottom: 28px;
+    }
+    &__link_gear {
+      padding-top: 27px;
+      padding-bottom: 27px;
+    }
+    &__link_ad {
+      padding-top: 29px;
+      padding-bottom: 28px;
+    }
+    &__link_click {
+      padding-top: 21px;
+      padding-bottom: 20px;
+    }
+    &__link_eco {
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    &__link_infra {
+      padding-top: 26px;
+      padding-bottom: 25px;
+    }
+    &__link_city {
+      padding-top: 31px;
+      padding-bottom: 31px;
+    }
+    &__link_art {
+      padding-top: 29px;
+      padding-bottom: 28px;
+    }
+    &__link_ultimate {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .slider-wrapper {
+    margin-bottom: 15px;
+  }
+  .none {
+    display: none;
+  }
+  .card__pic {
+    width: 100%;
+  }
+  .body {
+    &__card-box {
+      height: 100%;
+      grid-row-gap: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+    &__card {
+      margin-bottom: 0;
+      margin-bottom: 20px;
+      width: 100%;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &__paragraph {
+      display: none;
+    }
+    &__date {
+      border: none;
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 38px;
+      padding-bottom: 20px;
+    }
+  }
+  .equity {
+    margin-bottom: 0;
+  }
+}
